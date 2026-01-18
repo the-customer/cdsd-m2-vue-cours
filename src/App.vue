@@ -21,11 +21,12 @@
 // import Composable from './components/23_composable/Test.vue'
 // import VFocus from './components/24_CustomDirectives/Test.vue'
 // import DynaComp from './components/25_DynamicComponents/Test.vue'
-import ApiCall from './components/26_ApiCalls.vue'
+// import ApiCall from './components/26_ApiCalls.vue'
+import Routers from './components/27_Router/Test.vue'
 </script>
 <template>
   <main>
-    <ApiCall />
+    <Routers />
   </main>
 </template>
 
