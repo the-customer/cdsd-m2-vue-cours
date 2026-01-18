@@ -17,11 +17,15 @@
 // import ProviderInject from './components/18_Test.vue'
 // import LifeCycle from './components/19_LIfeCycle.vue'
 // import Watchers from './components/20_Watchers.vue'
-import TemplateRef from './components/21_TemplateRef.vue'
+// import TemplateRef from './components/21_TemplateRef.vue'
+// import Composable from './components/23_composable/Test.vue'
+// import VFocus from './components/24_CustomDirectives/Test.vue'
+// import DynaComp from './components/25_DynamicComponents/Test.vue'
+import ApiCall from './components/26_ApiCalls.vue'
 </script>
 <template>
   <main>
-    <TemplateRef />
+    <ApiCall />
   </main>
 </template>
 
