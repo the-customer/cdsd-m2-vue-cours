@@ -1,17 +1,19 @@
-const {
+import {
     computed,
     reactive
-} = require("vue");
+} from "vue";
 
 export const CART_KEY = Symbol('CART');
 
 
+
 export function createCartStore() {
     const state = reactive({
-        items: [],
+        items: [], // {id,name,price,qty}
     })
 
     function add(product) {
+        console.log("Produit ajoute")
         const found = state.items.find(p => p.id === product.id);
         if (found) found.qty++
         else state.items.push({
@@ -25,7 +27,7 @@ export function createCartStore() {
     }
 
     const total = computed(() => {
-        return state.items.recuce((sum, p) => sum + p.price * p.qty, 0);
+        return state.items.reduce((sum, p) => sum + p.price * p.qty, 0);
     })
 
     return {
