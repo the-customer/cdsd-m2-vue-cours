@@ -22,11 +22,13 @@
 // import VFocus from './components/24_CustomDirectives/Test.vue'
 // import DynaComp from './components/25_DynamicComponents/Test.vue'
 // import ApiCall from './components/26_ApiCalls.vue'
-import Routers from './components/27_Router/Test.vue'
+// import Routers from './components/27_Router/Test.vue'
+// import Pinia from './components/28_Pinia/Test.vue'
+import Api from './components/29_Api/test.vue'
 </script>
 <template>
   <main>
-    <Routers />
+    <Api />
   </main>
 </template>
 

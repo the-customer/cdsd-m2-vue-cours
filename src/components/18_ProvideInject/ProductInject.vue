@@ -8,7 +8,6 @@ const cart = inject(CART_KEY)
 if (!cart) throw new Error("Cart store not provided!!!");
 
 
-inject
 const products = [
     { id: 1, name: 'Stylo', price: 100 },
     { id: 2, name: 'Cahier', price: 500 },
